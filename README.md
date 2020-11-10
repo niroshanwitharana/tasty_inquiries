@@ -4,7 +4,7 @@ https://github.com/niroshanwitharana/tasty_treats/tree/master
 
  ## Discription :
 
- The business owner, Terence, wants to capture the information and save it in plain text files on his server. while i was completing the challange part, i have done the frontend([![frontend !]](https://github.com/niroshanwitharana/tasty_treats/tree/master)) part for this task. i have only completed backend part for this task. 
+ The business owner, Terence, wants to capture the information and save it in plain text files on his server. while i was completing the challange part, i have done the frontend([link](https://github.com/niroshanwitharana/tasty_treats/tree/master)) part for this task. i have only completed backend part for this task. 
 
 
 ## Installation :
