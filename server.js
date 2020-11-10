@@ -5,12 +5,11 @@ const express = require("express");
 const app = express();
 // import fs module to read and write file
 const fs = require("fs");
-const PORT = 3005;
+const PORT = 8080;
 app.use(express.json());
 
 // creating inquiries route we got the req data from frontend
-app.post("user/inquiries", (req, res) => {
-  console.log(req);
+app.post("/user/inquiries", (req, res) => {
   const data = {
     name: req.body.name,
     email: req.body.email,
@@ -36,7 +35,7 @@ app.post("user/inquiries", (req, res) => {
         if (error) {
           throw error;
         } else {
-          console.log("File created");
+          res.send("File created");
         }
       });
     }
